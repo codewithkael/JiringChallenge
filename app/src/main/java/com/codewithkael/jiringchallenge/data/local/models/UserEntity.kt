@@ -1,4 +1,4 @@
-package com.codewithkael.jiringchallenge.local.models
+package com.codewithkael.jiringchallenge.data.local.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 data class UserEntity (
     @PrimaryKey(autoGenerate = true)
     val id:Long?=null,
-    val username:String,
-    val userId:Int,
-    val name:String
+    val username:String?=null,
+    val userId:Int?=null,
+    val name:String?=null
 )

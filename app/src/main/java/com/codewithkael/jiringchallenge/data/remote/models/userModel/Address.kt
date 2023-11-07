@@ -1,4 +1,4 @@
-package com.codewithkael.jiringchallenge.remote.models.userModel
+package com.codewithkael.jiringchallenge.data.remote.models.userModel
 
 data class Address(
     val city: String,

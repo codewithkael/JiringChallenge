@@ -1,4 +1,4 @@
-package com.codewithkael.jiringchallenge.remote.models
+package com.codewithkael.jiringchallenge.data.remote.models
 
 data class TodoModel(
     val completed: Boolean,

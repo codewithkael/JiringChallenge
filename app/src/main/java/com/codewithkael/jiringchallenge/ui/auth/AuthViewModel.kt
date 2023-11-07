@@ -2,8 +2,8 @@ package com.codewithkael.jiringchallenge.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.codewithkael.jiringchallenge.local.LocalRepository
-import com.codewithkael.jiringchallenge.remote.RemoteRepository
+import com.codewithkael.jiringchallenge.data.local.LocalRepository
+import com.codewithkael.jiringchallenge.data.remote.RemoteRepository
 import com.codewithkael.jiringchallenge.utils.ResponseWrapper.Failure
 import com.codewithkael.jiringchallenge.utils.ResponseWrapper.Success
 import com.codewithkael.jiringchallenge.utils.toEntity

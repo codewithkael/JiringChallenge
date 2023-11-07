@@ -1,7 +1,7 @@
-package com.codewithkael.jiringchallenge.remote
+package com.codewithkael.jiringchallenge.data.remote
 
-import com.codewithkael.jiringchallenge.remote.models.TodoModel
-import com.codewithkael.jiringchallenge.remote.models.userModel.UserModel
+import com.codewithkael.jiringchallenge.data.remote.models.TodoModel
+import com.codewithkael.jiringchallenge.data.remote.models.userModel.UserModel
 import com.codewithkael.jiringchallenge.utils.ResponseWrapper
 import java.lang.Exception
 import javax.inject.Inject

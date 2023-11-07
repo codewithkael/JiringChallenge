@@ -1,6 +1,6 @@
 package com.codewithkael.jiringchallenge.di
 
-import com.codewithkael.jiringchallenge.remote.ApiService
+import com.codewithkael.jiringchallenge.data.remote.ApiService
 import com.codewithkael.jiringchallenge.utils.Constants
 import com.google.gson.Gson
 import dagger.Module
@@ -22,7 +22,7 @@ object NetworkModule {
     }
 
     @Provides
-    fun provideApiService(retrofit: Retrofit):ApiService = retrofit.create(ApiService::class.java)
+    fun provideApiService(retrofit: Retrofit): ApiService = retrofit.create(ApiService::class.java)
 
     @Provides
     fun provideGson():Gson = Gson()
